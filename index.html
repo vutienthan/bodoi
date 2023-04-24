@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ai LÀ tỷ Phú</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Thanh có đẹp trai không?</h1>
+<button type = "button" onclick="DapAn(1)">Đéo Đẹp Trai</button>
+<button type = "button" id = "bienmat" onclick="HienThiAnh()">Có Đẹp Trai</button>
+  
+  <p id="tra">Đáp Án Đúng: </p>
+  <img id = "image" src ="" />
+  <script>function DapAn() {
+  document.getElementById("tra").innerHTML= "Bạn Trả Lời đúng rồi, Ngoài Ra hắn còn bị bê dê cấp độ Hủy Diệt , bốc phét cấp độ thánh , và hôi lách cấp độ Ông tổ . CHÚC MỪNG BẠN ĐÃ THÀNH TỶ PHÚ VÌ ĐÃ TRẢ LỜI ĐÚNG CÂU HỎI SAU 2 PHÚT BẠN SẼ NHẬN ĐƯỢC - 10 TRIỆU RUB" ;
+  document.getElementById("tra").style.fontSize= "20px";
+  }
+</script>
+  <script>function HienThiAnh() {
+  let image = document.getElementById("image");
+
+			image.src =
+"https://vutienthan.github.io/bodoi/photo_2023-04-24_18-10-20.jpg"
+
+			document.getElementById("bienmat")
+					.style.display = "none";
+		
+}</script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
