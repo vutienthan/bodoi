@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url("")
+}
+button{
+  height: 80px;
+  width: 200px;
+  background: white;
+  color: pink;
+  font-size: 30px;
+}
+  #image {
+  height:360px;
+  width: 360px;
+}
